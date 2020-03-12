@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas Javascript</title>
+    <link rel="stylesheet" type="text/css" href="Style3.css">
+</head>
+
+<body>
+    <div class="main">  
+            <ul>
+                <li><a href="index (1).html">Home</a></li>
+                <li><a href="Tugas1.html">Tugas 1</a></li>
+                <li><a href="Tugas2.html">Tugas 2</a></li>
+                <li class="active"><a href="Tugas3.html">Tugas 3</a></li>
+            </ul>
+        </div>
+        <br>
+    <div class="welcome">
+        <center>
+            <h1>A. M. Ichsan Noer Abustan <br> Tugas Form </h1> <br>
+        </center>
+    </div>
+    	<div class="container">
+            <h3>Masukkan Nilai : </h3><br>
+            <form name="form">
+                <p>Nilai 1 : <input type="text" id="1" /> </p>
+                <p>Nilai 2 : <input type="text" id="2" /> </p>
+                <p>Nilai 3 : <input type="text" id="3" /> </p>
+                <p>Nilai 4 : <input type="text" id="4" /> </p>
+                <p>Nilai 5 : <input type="text" id="5" /> </p>
+                <br>
+                <button type="button" onclick="hitung()">Hitung</button>
+                <button type="button" onclick="reset()">Reset</button>
+
+            </form>
+            <br>
+            <p>Nilai rata - rata : <span id="average"></span></p>
+            <p>Nilai Tengah : <span id="nilaitengah"></span></p>
+            <p>Nilai Tertinggi : <span id="nilaimaks"></span></p>
+            <p>Nilai Terendah : <span id="nilaimin"></span></p>
+</div>
+            <script src="js.js"></script>
+    </body>
+    </html>
